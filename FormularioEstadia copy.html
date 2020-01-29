@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario Estadia</title>
+
+
+<!-- Estilos CSS bootstrap4 -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+<style>
+body{
+        background-color: white;
+}
+
+</style>
+
+
+</head>
+<body>
+    
+   <!-- Barra de navegación  -->
+
+      
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " style="height: 75px;">
+        <a class="navbar-brand" href="#">ENCUESTA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Información</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link " href="#" tabindex="-1">Documentación</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 ">
+            <a class="mr-2">Nombre del alumno</a>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Salir</button>
+          </form>
+        </div>
+      </nav>
+              
+              <!-- Cuadro de dialogo "Informacion" -->
+<!-- 
+        <div class="container alert alert-success mt-3 " role="alert">
+                <h4 class="alert-heading">Bien!</h4>
+                <p>Necesitamos que obtener un poco de informacion personal y de tu historial academico para  realizar la asignacion de 
+                de empresa de la manera mas rapida y conveniente.</p>
+                <hr>
+                <p class="mb-0">Debes de asegurarte de que tus datos proporcionados sean correctos.</p>
+              </div> -->
+
+
+              <div class="lead-text text-center mt-4 mp-5">
+                <strong ><h5 class="mt-3">UNIVERSIDAD TECNOLÓGICA FIDEL VELÁZQUEZ <br></h5></strong>
+                <h6> DIRECCIÓN DE LA DIVISIÓN ACADÉMICA TIC´s<br>
+                ÁREA TECNOLOGIAS DE LA INFORMACIÓN  </h6>
+                </div>
+                <div class="text-center mt-3"> 
+                        <strong> FICHA DE ESTADÍA</strong>
+                </div>
+
+     
+
+
+
+       
+            <!-- List group -->
+            <div class="list-group container mt-5" id="myList" role="tablist">
+                        <a class="list-group-item list-group-item-action active" data-toggle="list" href="#home" role="tab">DATOS PERSONALES</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#profile" role="tab">DESEMPEÑO ACADEMICO</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#messages" role="tab">REFERENCIA DE ESTANCIA</a>
+                        
+                      </div>
+              
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane fade show active " id="home" role="tabpanel">
+
+
+                                <div class="container border border-3 border border-success rounded mt-5 " style="background-color: rgb(255, 255, 255);">
+                                             
+                                                
+                                                        
+                                               <form action="">
+                                                        <div class="row ">
+                                                                <div class="col-8"></div>
+                                                                <div class="form-group col-4 mt-3">
+                                                                <label for="">Matricula</label>
+                                                                <input type="text" class="form-control" placeholder="123Angel" id="" aria-describedby="Matricula" disabled>
+                                                                </div>
+                                                        </div>
+                                
+                                                        <div class="row">
+                                                                <div class="col-4 form-group">
+                                                                        <label for="">A.Paterno</label>
+                                                                        <input type="text" class="form-control" name="" id="">
+                                                                </div>
+                                                                <div class="col-4 form-group">
+                                                                        <label for="">A.Materno</label>
+                                                                        <input type="text" class="form-control" name="" id="">
+                                                                </div>
+                                                                <div class="col-4 form-group">
+                                                                        <label for="">Nombre (s)</label>
+                                                                        <input type="text" class="form-control" name="" id="">
+                                                                </div>
+                                                        </div>
+                                
+                                                        <div class="row">
+                                                                        <div class="col-6 form-group">
+                                                                                <label for="">Calle</label>
+                                                                                <input type="text" class="form-control" name="" id="">
+                                                                        </div>
+                                                                        <div class="col-3 form-group">
+                                                                                <label for="">Colonia</label>
+                                                                                <input type="text" class="form-control" name="" id="">
+                                                                        </div>
+                                                                        <div class="col-3 form-group">
+                                                                                <label for="">C.P.</label>
+                                                                                <input type="text" class="form-control" name="" id="">
+                                                                        </div>
+                                                        </div>
+                                
+                                                        <div class="row">
+                                                                        <div class="col-6 form-group">
+                                                                                <label for="">Entre Calles</label>
+                                                                                <input type="text" class="form-control" name="" id="">
+                                                                        </div>
+                                                                        <div class="col-3 form-group">
+                                                                                <label for="">Municipio</label>
+                                                                                <input type="text" class="form-control" name="" id="">
+                                                                        </div>
+                                                                        <div class="col-3 form-group">
+                                                                                <label for="">Entidad Federativa</label>
+                                                                                <input type="text" class="form-control" name="" id="">
+                                                                        </div>
+                                                        </div>
+                                
+                                                        <div class="row">
+                                                                        <div class="col-4 form-group">
+                                                                                <label for="">Celular</label>
+                                                                                <input type="text" class="form-control" name="" id="">
+                                                                        </div>
+                                                                        <div class="col-4 form-group">
+                                                                                <label for="">Telefono (Casa)</label>
+                                                                                <input type="text" class="form-control" name="" id="">
+                                                                        </div>
+                                                                        <div class="col-4 form-group">
+                                                                                <label for="">Correo Electronico</label>
+                                                                                <input type="email" class="form-control" name="" id="">
+                                                                        </div>
+                                                        </div>
+                                
+                                                        <div class="row">
+                                                                        <div class="col-5 form-group">
+                                                                                <label for="">No. de IMSS</label>
+                                                                                <input type="text" class="form-control" name="" id="">
+                                                                        </div>
+                                                        </div>
+                                               </form>
+                                
+                                               <div class="row  m-4 border-2 justified-contened-right">
+                                                        <button type="button" class="btn btn-outline-success btn-lg ">Guardar</button>
+                                                </div>
+                                
+                                        </div>
+                                
+                                
+                                
+
+
+
+
+                </div>
+
+<!-- SEGUNDO SEGMENTO -->
+
+                <div class="tab-pane fade" id="profile" role="tabpanel">
+
+
+                                <div class="container border border-3 border border-success rounded mt-5 " style="background-color: rgb(255, 255, 255);">
+                                               
+                                      
+                                      
+                                       <form class=" mt-4 " action="">
+                                         <div class=" row text-center justify-content-center border border-2 m-1 ">
+                                                        <div class="col-3 "><label for="">CUATRIMESTRE</label></div>
+                                                        <div class="col-1 "><label for="">I</label></div>
+                                                        <div class="col-1 "><label for="">II</label></div>
+                                                        <div class="col-1 "><label for="">III</label></div>
+                                                        <div class="col-1 "><label for="">IV</label></div>
+                                                        <div class="col-1 "><label for="">V</label></div>
+                                                        <div class="col-3 "><label for="">GLOBAL</label></div>
+                        
+                                        <div class="row text-center justify-content-center m-1">
+                                                <div class="col-3 "><label for="">PROMEDIO</label></div>
+                                                <div class="col-1 "><input type="text" class="form-control" name="" id=""></div>
+                                                <div class="col-1 "><input type="text" class="form-control" name="" id=""></div>
+                                                <div class="col-1 "><input type="text" class="form-control" name="" id=""></div>
+                                                <div class="col-1 "><input type="text" class="form-control" name="" id=""></div>
+                                                <div class="col-1 "><input type="text" class="form-control" name="" id=""></div>
+                                                <div class="col-3 "><input type="text" class="form-control" name="" id=""></div>
+                                        </div>
+                        
+                        
+                                                </div>
+                                              
+                        
+                                                <div class="row text-center justify-content-center mt-4">
+                                                        <div class="col-4">
+                                                                <strong>Carrera</strong>
+                                                                <select id="inputState" class="form-control mt-1">
+                                                                        <option disabled selected>Elige una opcion</option>
+                                                                        <option>sistemas</option>
+                                                                        <option>redes</option>
+                                                                </select>
+                                                        </div>
+                                                        <div class="col-4">
+                                                                <strong>Area</strong>
+                                                                <select id="inputState" class="form-control mt-1">
+                                                                                <option disabled selected>Elige una opcion</option>
+                                                                                <option>sistemas</option>
+                                                                                <option>redes</option>
+                                                                        </select>                               
+                                                        </div>
+                                                        <div class="col-4">
+                                                                <strong>Cuatrimestre</strong>
+                                                                <select id="inputState" class="form-control mt-1">
+                                                                                <option disabled selected>Elige una opcion</option>
+                                                                                <option>6°</option>
+                                                                                <option>10°</option>
+                                                                        </select>       
+                                                        </div>
+                                                </div>
+                        
+                        
+                        
+                        
+                                        </form>
+                                        <div class="row  m-4  mt-3 border-2 justified-contened-right">
+                                                <button type="button" class="btn btn-outline-success btn-lg ">Guardar</button>
+                                        </div>
+                                </div>
+                        
+
+                </div>
+
+                <!-- TERCER SEGMENTO -->
+
+                <div class="tab-pane fade" id="messages" role="tabpanel">
+
+
+
+
+                                <div class="container border border-3 border border-success rounded mt-5 " style="background-color: rgb(255, 255, 255);">
+                     
+                                                
+                                                <form class=" mt-4 " action="">
+                                               
+                                               <div class="row">
+                                                        <div class="col-5 form-group">
+                                                                <label for="">Nombre del Proyecto</label>
+                                                                <input type="text" class="form-control" name="" id="">
+                                                        </div>
+                                                        <div class="col-7 form-group">
+                                                                <label for="">Nombre de Empresa</label>
+                                                                <input type="text" class="form-control" name="" id="">
+                                                        </div>
+                                                </div>
+                        
+                                                <div class="row">
+                                                        <div class="col-8 form-group">
+                                                                <label for="">Direccion de la Empresa</label>
+                                                                <input type="text" class="form-control" name="" id="">
+                                                        </div>
+                                                </div>
+                        
+                                                <div class="row">
+                                                        <div class="col-6 form-group">
+                                                                <label for="">Asesor Industrial</label>
+                                                                <input type="text" class="form-control" name="" id="">
+                                                        </div>
+                                                        <div class="col-4 form-group">
+                                                                <label for="">Tel.</label>
+                                                                <input type="text" class="form-control" name="" id="">
+                                                        </div>
+                                                        <div class="col-2 form-group">
+                                                                <label for="">Ext.</label>
+                                                                <input type="text" class="form-control" name="" id="">
+                                                        </div>
+                                                </div>
+                        
+                                                <div class="row">
+                                                        <div class="col-6 form-group">
+                                                                <label for="">Cargo</label>
+                                                                <input type="text" class="form-control" name="" id="">
+                                                        </div>
+                                                        <div class="col-6 form-group">
+                                                                <label for="">Email.</label>
+                                                                <input type="email" class="form-control" name="" id="">
+                                                        </div>
+                                                </div>
+                        
+                                                <div class="row">
+                                                        <div class="col-6 form-group">
+                                                                <label for="">Asesor Academico</label>
+                                                                <input type="text" class="form-control" name="" id="">
+                                                        </div>
+                                                        <div class="col-4 form-group">
+                                                                <label for="">Tel.</label>
+                                                                <input type="text" class="form-control" name="" id="">
+                                                        </div>
+                                                        <div class="col-2 form-group">
+                                                                <label for="">Ext.</label>
+                                                                <input type="text" class="form-control" name="" id="">
+                                                        </div>
+                                                </div>
+                        
+                                                <div class="row">
+                                                        <div class="col-6 form-group">
+                                                                <label for="">Cargo</label>
+                                                                <input type="text" class="form-control" name="" id="">
+                                                        </div>
+                                                        <div class="col-6 form-group">
+                                                                <label for="">Email.</label>
+                                                                <input type="email" class="form-control" name="" id="">
+                                                        </div>
+                                                </div>
+                        
+                                                </form>
+                                                <div class="row  m-4  mt-3 border-2 justified-contened-right">
+                                                        <button type="button" class="btn btn-outline-success btn-lg ">Guardar</button>
+                                                </div>
+                                        </div>
+                        
+                        
+
+                </div>
+                
+              </div>
+
+
+
+
+
+
+
+<footer class="mt-5">
+<div class="" style="background-color: rgba(47, 196, 121, 0.733);">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+</footer>
+
+</body>
+</html>
